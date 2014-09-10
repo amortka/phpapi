@@ -8,4 +8,9 @@ API suports following methods
 * PUT
 * DELETE
 
-they can be easily extended by adding new methods.
+they can be easily extended by adding new methods in switch bock:
+```
+  ...
+  switch($this->method) {
+  case 'DELETE':
+```
