@@ -5,10 +5,10 @@ require_once('models.class.php');
 class MyAPI extends API
 {
 //private $db = new stdClass;
-protected $dbdb  = "DEVDB";
+protected $dbdb  = "***";
 protected $dbusr = "db2inst1";
-protected $dbpsw = "19Mtgartw86";
-protected $dbsch = "DEVDB";
+protected $dbpsw = "****";
+protected $dbsch = "***";
 public 	  $dbh;
 
     public function __construct($request, $origin) {
